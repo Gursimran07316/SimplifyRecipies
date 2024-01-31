@@ -1,0 +1,21 @@
+/* :root {
+    --custom-primary-color: #3498db; /* Replace with your desired color code */
+  /* } */
+
+
+
+  .bg-primary,.btn-primary{
+background-color: #4281C8 !important;
+border:none;
+  }
+.card {
+    --bs-card-border-width: 0; /* Set it to 0 to remove the border */
+}
+
+.navbar-nav .nav-link,.navbar .navbar-brand button{
+    color: white !important;
+}
+.equal-height-img {
+    height: 250px !important; /* Set your desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
